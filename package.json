@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/djorellanabmrb/swagger-twtg/issues"
   },
-  "homepage": "https://github.com/djorellanabmrb/swagger-twtg#readme"
+  "homepage": "https://github.com/djorellanabmrb/swagger-twtg#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "swagger-ui-express": "^4.1.4"
+  }
 }
