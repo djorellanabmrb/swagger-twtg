@@ -12,7 +12,6 @@ router.use(express.json())
 .use('/',  swaggerUi.serve)
 .get('/', swaggerUi.setup(swaggerDoc));
 
-
 const app = express().use(router);
 
 app.listen(SiteConfig.port, () => {
